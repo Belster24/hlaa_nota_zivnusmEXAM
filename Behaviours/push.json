@@ -1,5 +1,152 @@
 {
-	"additionalNodes": [],
+	"additionalNodes": [ {
+		"children": [],
+		"id": "1fQ2QNxQYYvC4iwFF0sS8Csn7FhoAums",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "hlaa_nota_zivnusmEXAM.manageUnitFightAtFront"
+		} ],
+		"referenceInputs": [ {
+			"name": "laneInfo",
+			"value": "lane"
+		}, {
+			"name": "unitName",
+			"value": "\"armmav\""
+		}, {
+			"name": "unitCategory",
+			"value": "\"armmav\""
+		}, {
+			"name": "buyUpToAmount",
+			"value": "4"
+		}, {
+			"name": "severenity",
+			"value": "4"
+		}, {
+			"name": "relativePositionToFront",
+			"value": "-0.2"
+		}, {
+			"name": "moveSpread",
+			"value": "128"
+		}, {
+			"name": "dangerRadius",
+			"value": "700"
+		}, {
+			"name": "dangerDpsTreshold",
+			"value": "2"
+		}, {
+			"name": "minAmount",
+			"value": "1"
+		}, {
+			"name": "groupRatioSafe",
+			"value": "0.3"
+		}, {
+			"name": "beforeFocusedFireThreshold",
+			"value": "1000"
+		}, {
+			"name": "highestDPSSeekRadius",
+			"value": "1200"
+		} ],
+		"referenceOutputs": []
+	}, {
+		"children": [],
+		"id": "aimTvugGWVrC1mWdqIKHOqAiBvdL3jVT",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "hlaa_nota_zivnusmEXAM.manageUnitFightAtFront"
+		} ],
+		"referenceInputs": [ {
+			"name": "laneInfo",
+			"value": "lane"
+		}, {
+			"name": "unitName",
+			"value": "\"armmav\""
+		}, {
+			"name": "unitCategory",
+			"value": "\"armmav\""
+		}, {
+			"name": "buyUpToAmount",
+			"value": "0"
+		}, {
+			"name": "severenity",
+			"value": "2"
+		}, {
+			"name": "relativePositionToFront",
+			"value": "-0.2"
+		}, {
+			"name": "moveSpread",
+			"value": "128"
+		}, {
+			"name": "dangerRadius",
+			"value": "500"
+		}, {
+			"name": "dangerDpsTreshold",
+			"value": "3"
+		}, {
+			"name": "minAmount",
+			"value": "5"
+		}, {
+			"name": "groupRatioSafe",
+			"value": "1"
+		}, {
+			"name": "beforeFocusedFireThreshold",
+			"value": "1000"
+		}, {
+			"name": "highestDPSSeekRadius",
+			"value": "1200"
+		} ],
+		"referenceOutputs": []
+	}, {
+		"children": [],
+		"id": "mFaEbj9ZYtmGJ5o7nL2Ccm3pDOm5k1WV",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "hlaa_nota_zivnusmEXAM.manageUnitFightAtFront"
+		} ],
+		"referenceInputs": [ {
+			"name": "laneInfo",
+			"value": "lane"
+		}, {
+			"name": "unitName",
+			"value": "\"armmart\""
+		}, {
+			"name": "unitCategory",
+			"value": "\"artyArmy\""
+		}, {
+			"name": "buyUpToAmount",
+			"value": "0"
+		}, {
+			"name": "severenity",
+			"value": "2"
+		}, {
+			"name": "relativePositionToFront",
+			"value": "-0.3"
+		}, {
+			"name": "moveSpread",
+			"value": "128"
+		}, {
+			"name": "dangerRadius",
+			"value": "600"
+		}, {
+			"name": "dangerDpsTreshold",
+			"value": "2"
+		}, {
+			"name": "minAmount",
+			"value": "1"
+		}, {
+			"name": "groupRatioSafe",
+			"value": "0.2"
+		}, {
+			"name": "beforeFocusedFireThreshold",
+			"value": "800"
+		}, {
+			"name": "highestDPSSeekRadius",
+			"value": "1000"
+		} ],
+		"referenceOutputs": []
+	} ],
 	"additionalParameters": {
 		"root": {
 			"height": 128,
@@ -15,33 +162,47 @@
 	} ],
 	"outputs": [],
 	"properties": {
+		"1fQ2QNxQYYvC4iwFF0sS8Csn7FhoAums": {
+			"height": 382,
+			"title": "reference",
+			"width": 399,
+			"x": 1873,
+			"y": 743
+		},
 		"47FzONogmmLacBVuen44XPzWNOXuyafJ": {
 			"height": 151,
 			"title": "keepLaneInfoUpdated",
 			"width": 381,
-			"x": 973,
+			"x": 962,
 			"y": -57
 		},
 		"4a72KlHIm1EkYbWC4RJZaJtYt3u3OiTx": {
 			"height": 361,
 			"title": "manageSpiesForLane",
 			"width": 450,
-			"x": 968,
-			"y": 1146
+			"x": 981,
+			"y": 1360
 		},
 		"5SJ3XnbJ46voRbe6NYPkvTmnDSasJXcO": {
 			"height": 403,
 			"title": "manageArtileryForLane",
 			"width": 441,
-			"x": 967,
-			"y": 740
+			"x": 975,
+			"y": 958
 		},
 		"GABuXVhHFS6CEXJ4vKTJeVdME9FC9ZNe": {
 			"height": 60,
 			"title": "updateLane",
 			"width": 157,
-			"x": 476,
+			"x": 471,
 			"y": 24
+		},
+		"HLPNgUV9waTzOe8Q5G13bs6Sm629tIgH": {
+			"height": 382,
+			"title": "reference",
+			"width": 399,
+			"x": 1412,
+			"y": 325
 		},
 		"JhLJB41XmWhuqEQVkRL37ST406vkQCZm": {
 			"height": 60,
@@ -50,33 +211,40 @@
 			"x": 248,
 			"y": 24
 		},
+		"aimTvugGWVrC1mWdqIKHOqAiBvdL3jVT": {
+			"height": 382,
+			"title": "reference",
+			"width": 399,
+			"x": 1452,
+			"y": 770
+		},
 		"i7VgxseyqHsgIQ5xBUSI6p26I1Hw46eE": {
 			"height": 173,
 			"title": "initLaneData",
 			"width": 313,
-			"x": 483,
+			"x": 478,
 			"y": -222
 		},
 		"ilJ22UpIp6gGg753rkpFsvvrdHsUKeHf": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 658,
+			"x": 650,
 			"y": 20
 		},
 		"jCA0kGPBsxfZE9ib5CPGDXTFgY4ACtje": {
 			"height": 214,
 			"title": "buyArmyInRatio",
 			"width": 1354,
-			"x": 974,
+			"x": 963,
 			"y": 108
 		},
 		"mFaEbj9ZYtmGJ5o7nL2Ccm3pDOm5k1WV": {
 			"height": 403,
 			"title": "manageArtileryForLane",
 			"width": 441,
-			"x": 975,
-			"y": 335
+			"x": 978,
+			"y": 557
 		}
 	},
 	"roles": [ {
@@ -131,15 +299,15 @@
 						"value": "lane"
 					}, {
 						"name": "severenity",
-						"value": "10"
+						"value": "5"
 					}, {
 						"name": "ratioInfo",
-						"value": "{{ratio = 1, unitName = \"armmart\", categoryName = \"artyArmy\"}, {ratio = 1, unitName = \"armmav\", categoryName = \"mainArmy\"}}"
+						"value": "{ {ratio = 1, unitName = \"armmav\", categoryName = \"mainArmy\"}}"
 					} ],
 					"referenceOutputs": []
 				}, {
 					"children": [],
-					"id": "mFaEbj9ZYtmGJ5o7nL2Ccm3pDOm5k1WV",
+					"id": "HLPNgUV9waTzOe8Q5G13bs6Sm629tIgH",
 					"nodeType": "reference",
 					"parameters": [ {
 						"name": "behaviourName",
@@ -153,10 +321,10 @@
 						"value": "\"armmart\""
 					}, {
 						"name": "unitCategory",
-						"value": "\"artyArmy\""
+						"value": "\"armmartt\""
 					}, {
 						"name": "buyUpToAmount",
-						"value": "0"
+						"value": "3"
 					}, {
 						"name": "severenity",
 						"value": "2"
@@ -168,22 +336,22 @@
 						"value": "128"
 					}, {
 						"name": "dangerRadius",
-						"value": "600"
+						"value": "700"
 					}, {
 						"name": "dangerDpsTreshold",
 						"value": "2"
 					}, {
 						"name": "minAmount",
-						"value": "2"
+						"value": "1"
 					}, {
 						"name": "groupRatioSafe",
 						"value": "0.2"
 					}, {
 						"name": "beforeFocusedFireThreshold",
-						"value": "800"
+						"value": "1000"
 					}, {
 						"name": "highestDPSSeekRadius",
-						"value": "1000"
+						"value": "1200"
 					} ],
 					"referenceOutputs": []
 				}, {
@@ -208,31 +376,31 @@
 						"value": "0"
 					}, {
 						"name": "severenity",
-						"value": "2"
+						"value": "7"
 					}, {
 						"name": "relativePositionToFront",
-						"value": "-0.3"
+						"value": "-0.1"
 					}, {
 						"name": "moveSpread",
 						"value": "128"
 					}, {
 						"name": "dangerRadius",
-						"value": "800"
+						"value": "400"
 					}, {
 						"name": "dangerDpsTreshold",
-						"value": "0.7"
+						"value": "15"
 					}, {
 						"name": "minAmount",
-						"value": "8"
+						"value": "6"
 					}, {
 						"name": "groupRatioSafe",
-						"value": "0.2"
+						"value": "1"
 					}, {
 						"name": "beforeFocusedFireThreshold",
 						"value": "400"
 					}, {
 						"name": "highestDPSSeekRadius",
-						"value": "400"
+						"value": "700"
 					} ],
 					"referenceOutputs": []
 				}, {

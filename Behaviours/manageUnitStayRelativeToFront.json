@@ -20,7 +20,7 @@
 		"name": "buyUpToAmount"
 	}, {
 		"command": "Variable",
-		"name": "severenity"
+		"name": "severity"
 	}, {
 		"command": "Variable",
 		"name": "relativePositionToFront"

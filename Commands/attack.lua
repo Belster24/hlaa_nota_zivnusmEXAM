@@ -55,9 +55,11 @@ function Run(self, units, parameter)
 	for i=1, #unitsGroup do
 		local uid = unitsGroup[i]
 		if #SpringGetUnitCommands(uid) > 0  then
-			if SpringGetUnitHealth(uid) ~= nil then
-				return RUNNING
-			end
+            if #SpringGetUnitCommands(uid) ~= nil then
+                if SpringGetUnitHealth(uid) ~= nil then
+                    return RUNNING
+                end
+            end
 		end
 	
 	end

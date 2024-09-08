@@ -1,5 +1,32 @@
 {
-	"additionalNodes": [],
+	"additionalNodes": [ {
+		"children": [],
+		"id": "OEjs6hZwbrzZ7FIAhGbuURdB0x0dWANy",
+		"nodeType": "repeat",
+		"parameters": []
+	}, {
+		"children": [],
+		"id": "QnjozhyGuJHjt1IGY4BRY5HyRHluIyf1",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "msg",
+			"value": "goalSpot"
+		}, {
+			"name": "scriptName",
+			"value": "echo"
+		} ],
+		"scriptName": "echo"
+	}, {
+		"children": [],
+		"id": "Q5bmb1Z0UHaJaNKW6rgKjmkl22Am1DB1",
+		"nodeType": "success",
+		"parameters": []
+	}, {
+		"children": [],
+		"id": "DEkuVIVDORFCzXDRVwApRxkkhADYJMpB",
+		"nodeType": "repeat",
+		"parameters": []
+	} ],
 	"additionalParameters": {
 		"root": {
 			"height": 348,
@@ -20,7 +47,7 @@
 		"name": "buyUpToAmount"
 	}, {
 		"command": "Variable",
-		"name": "severenity"
+		"name": "severity"
 	}, {
 		"command": "Variable",
 		"name": "relativePositionToFront"
@@ -52,182 +79,203 @@
 			"height": 152,
 			"title": "moveUnitsToGoalPos",
 			"width": 345,
-			"x": 2871,
+			"x": 2863,
 			"y": 445
 		},
 		"47CxR44i6hZnwsqVroEcmRzDSsrPJWyx": {
 			"height": 215,
 			"title": "retreatToSafeSpot",
 			"width": 360,
-			"x": 1438,
+			"x": 1431,
 			"y": 453
 		},
 		"4Raj6oRKTBQXSsR9D6oF99ho3a2R7eyg": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 853,
+			"x": 847,
 			"y": -329
 		},
 		"5EOjwqJkK1lsaGjZm85bl0Mi78jGLzBT": {
 			"height": 60,
 			"title": "moveToGoalState",
 			"width": 196,
-			"x": 2429,
+			"x": 2421,
 			"y": 401
 		},
 		"8AU3qIyLT15Y3hEqRKQGXMZ1hT69SNXF": {
 			"height": 94,
 			"title": "getGoalSpot",
 			"width": 637,
-			"x": 2864,
+			"x": 2856,
 			"y": 349
 		},
 		"AAosCLHH7CrIRDZpuftqwiFc4Blfi5Uc": {
 			"height": 74,
 			"title": "wait",
 			"width": 202,
-			"x": 1155,
+			"x": 1148,
 			"y": -197
 		},
 		"DEkuVIVDORFCzXDRVwApRxkkhADYJMpB": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 666,
-			"y": -336
+			"x": 627,
+			"y": -368
 		},
 		"FSY4tUSae9HtpPzWWqqIAr8OfP8tVZBs": {
 			"height": 74,
 			"title": "wait",
 			"width": 190,
-			"x": 2864,
+			"x": 2856,
 			"y": 242
 		},
 		"OEjs6hZwbrzZ7FIAhGbuURdB0x0dWANy": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 659,
-			"y": 102
+			"x": 653,
+			"y": 155
+		},
+		"Q5bmb1Z0UHaJaNKW6rgKjmkl22Am1DB1": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1167,
+			"y": -109
+		},
+		"QnjozhyGuJHjt1IGY4BRY5HyRHluIyf1": {
+			"height": 72,
+			"title": "echo",
+			"width": 134,
+			"x": 1631,
+			"y": -180
 		},
 		"R2mKVwDjrk89EnwnnZ69HU2TKbHNNJcV": {
 			"height": 341,
 			"title": "reference",
 			"width": 403,
-			"x": 1162,
+			"x": 1155,
 			"y": -544
 		},
 		"Zqc7wpafCNzn8h8tSGZPD52MGsFUIQKV": {
 			"height": 60,
 			"title": "keepFindingTarget",
 			"width": 201,
-			"x": 2421,
+			"x": 2413,
 			"y": 253
 		},
 		"aAXObiXzDjaEntJvq27d9AdQS7CsuqYc": {
 			"height": 94,
 			"title": "getGoalSpot",
 			"width": 637,
-			"x": 1672,
-			"y": -208
+			"x": 1842,
+			"y": -251
 		},
 		"dpIsV7agkt2Qdow9Ddakfmv1ZSWKyCZp": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2676,
+			"x": 2668,
 			"y": 399
 		},
 		"fhw0IiuwLKU0wk71iBtCKwC1vZh4nXL0": {
 			"height": 74,
 			"title": "wait",
 			"width": 190,
-			"x": 1559,
+			"x": 1552,
 			"y": 719
 		},
 		"hovwVbNPGVo3tHNWG7xi8mIrvWeJikKx": {
 			"height": 94,
 			"title": "storeTarget",
 			"width": 1054,
-			"x": 1585,
+			"x": 1578,
 			"y": 30
 		},
 		"mBVDrCBFesmxL0A22zj55qNO31UNhzCy": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 379,
-			"y": 97
+			"x": 479,
+			"y": 91
 		},
 		"mM01LpXWk15NmIGGzPTdkj9BOm0jYPvU": {
 			"height": 60,
 			"title": "fightSequence",
 			"width": 172,
-			"x": 1194,
+			"x": 1187,
 			"y": 76
 		},
 		"myU6QRX87uheSmmoef3t4XcoM0Cb7mfX": {
 			"height": 91,
 			"title": "moveToGoalOrRetreat",
 			"width": 227,
-			"x": 818,
-			"y": 80
+			"x": 811,
+			"y": 82
 		},
 		"n9PUtqPU6VjwzI4eBBJhFhHqMewGvibZ": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1191,
+			"x": 1184,
 			"y": 410
 		},
 		"nmAfURhd9JGGyBgFiHUCcsS8Kcih7N4f": {
 			"height": 94,
 			"title": "storeTarget",
 			"width": 1054,
-			"x": 2854,
+			"x": 2846,
 			"y": 142
 		},
 		"q6VsNWWzrZUDYjSOBEUh8amc8yqpSLdf": {
 			"height": 92,
 			"title": "attackHighDPSTarget",
 			"width": 295,
-			"x": 2176,
+			"x": 2168,
 			"y": 130
 		},
 		"qjjrUQWSgjsG3qkCcpc4ScGwpYNHOIuz": {
 			"height": 74,
 			"title": "wait",
 			"width": 190,
-			"x": 2862,
+			"x": 2854,
 			"y": 610
 		},
 		"tncWoFqG4xo4zqwx4K39sorGtbDRWlVN": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2668,
+			"x": 2660,
 			"y": 208
 		},
 		"wR568IHLgSJCMyD6d8IRz9qKazjc07Ep": {
 			"height": 70,
 			"title": "attackAllAndSeekHighDPSTarget",
 			"width": 290,
-			"x": 2120,
+			"x": 2113,
 			"y": 264
+		},
+		"xO9Dqzvadb0MaJq6MdYRqjzsMEJ7zu9w": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 350,
+			"y": 64
 		},
 		"y9dNh7uM2tixI8zOYSmSfjp2CvgeSSKU": {
 			"height": 88,
 			"title": "haveHighDPSTarget",
 			"width": 637,
-			"x": 1427,
+			"x": 1420,
 			"y": 138
 		},
 		"yo26FSBGgQbmrmYUt0ivP7CWWodQdcWk": {
 			"height": 152,
 			"title": "moveUnitsToGoalPos",
 			"width": 325,
-			"x": 1678,
+			"x": 1671,
 			"y": -110
 		}
 	},
@@ -290,12 +338,7 @@
 				"id": "4Raj6oRKTBQXSsR9D6oF99ho3a2R7eyg",
 				"nodeType": "sequence",
 				"parameters": []
-			} ],
-			"id": "DEkuVIVDORFCzXDRVwApRxkkhADYJMpB",
-			"nodeType": "repeat",
-			"parameters": []
-		}, {
-			"children": [ {
+			}, {
 				"children": [ {
 					"children": [ {
 						"children": [],
@@ -493,7 +536,7 @@
 							"value": "laneInfo"
 						}, {
 							"name": "safeDistance",
-							"value": "-3"
+							"value": "-1.8"
 						}, {
 							"name": "unitsGroup",
 							"value": "laneInfo.units[unitCategory]"
@@ -528,15 +571,15 @@
 					"value": "true"
 				} ]
 			} ],
-			"id": "OEjs6hZwbrzZ7FIAhGbuURdB0x0dWANy",
-			"nodeType": "repeat",
-			"parameters": []
+			"id": "mBVDrCBFesmxL0A22zj55qNO31UNhzCy",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "any-success"
+			} ]
 		} ],
-		"id": "mBVDrCBFesmxL0A22zj55qNO31UNhzCy",
-		"nodeType": "parallel",
-		"parameters": [ {
-			"name": "mode",
-			"value": "all-success"
-		} ]
+		"id": "xO9Dqzvadb0MaJq6MdYRqjzsMEJ7zu9w",
+		"nodeType": "repeat",
+		"parameters": []
 	}
 }

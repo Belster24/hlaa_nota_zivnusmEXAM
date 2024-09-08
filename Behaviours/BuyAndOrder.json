@@ -16,13 +16,6 @@
 			"x": 1950,
 			"y": -11
 		},
-		"31pYx80vVtaohY4LL0R1lvp1r26tC6qW": {
-			"height": 74,
-			"title": "echo",
-			"width": 289,
-			"x": 761,
-			"y": -206
-		},
 		"3konGSBbSaJqp1ONESWBfhYRHPJ4xkX4": {
 			"height": 72,
 			"title": "wait",
@@ -144,18 +137,6 @@
 					"value": "store"
 				} ],
 				"scriptName": "store"
-			}, {
-				"children": [],
-				"id": "31pYx80vVtaohY4LL0R1lvp1r26tC6qW",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "msg",
-					"value": "core.TeamMetal()[\"currentLevel\"]"
-				}, {
-					"name": "scriptName",
-					"value": "echo"
-				} ],
-				"scriptName": "echo"
 			}, {
 				"children": [ {
 					"children": [ {
