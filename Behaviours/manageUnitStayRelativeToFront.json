@@ -176,8 +176,8 @@
 						"name": "buyUpToAmount",
 						"value": "buyUpToAmount"
 					}, {
-						"name": "severenity",
-						"value": "severenity"
+						"name": "severity",
+						"value": "severity"
 					}, {
 						"name": "dangerRadius",
 						"value": "dangerRadius"
