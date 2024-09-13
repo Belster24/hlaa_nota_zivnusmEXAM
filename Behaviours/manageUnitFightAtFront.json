@@ -47,7 +47,7 @@
 		"name": "buyUpToAmount"
 	}, {
 		"command": "Variable",
-		"name": "severity"
+		"name": "severenity"
 	}, {
 		"command": "Variable",
 		"name": "relativePositionToFront"
@@ -307,8 +307,8 @@
 						"name": "buyUpToAmount",
 						"value": "buyUpToAmount"
 					}, {
-						"name": "severity",
-						"value": "severity"
+						"name": "severenity",
+						"value": "severenity"
 					}, {
 						"name": "dangerRadius",
 						"value": "dangerRadius"
