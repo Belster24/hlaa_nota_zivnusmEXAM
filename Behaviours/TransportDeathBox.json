@@ -1,11 +1,11 @@
 {
 	"additionalNodes": [ {
 		"children": [],
-		"id": "wbqm9IEgFESO2k419KGhNcdHDclU1kER",
+		"id": "6qGYhazpBWpbX15ZOT6c7bKQoRDNniQY",
 		"nodeType": "luaCommand",
 		"parameters": [ {
 			"name": "position",
-			"value": "Vec3(6904,27,4048)"
+			"value": "Vec3(4824.2,44.8,4096.5)"
 		}, {
 			"name": "unit",
 			"value": "164"
@@ -19,172 +19,223 @@
 		"scriptName": "nota_kahlan_ttdr.moveUnitTo"
 	}, {
 		"children": [],
-		"id": "G6mhnod1DNNcwwDlsGFXk8FwYRqTLzHA",
+		"id": "XchJseS7a0cff20DhRGuKOcHxoYsMmTh",
+		"nodeType": "wait",
+		"parameters": [ {
+			"name": "time",
+			"value": 350
+		} ]
+	}, {
+		"children": [],
+		"id": "NTcmkm4U91x7Ih1dHJOP9PQnwNqERvE3",
+		"nodeType": "wait",
+		"parameters": [ {
+			"name": "time",
+			"value": 320
+		} ]
+	}, {
+		"children": [],
+		"id": "wbqm9IEgFESO2k419KGhNcdHDclU1kER",
 		"nodeType": "luaCommand",
 		"parameters": [ {
-			"name": "condition",
-			"value": "bb.lanes[1].info.frontPosIndex"
+			"name": "position",
+			"value": "Vec3(5997.90,40.16,2998.127)"
+		}, {
+			"name": "unit",
+			"value": "164"
+		}, {
+			"name": "radius",
+			"value": "20"
 		}, {
 			"name": "scriptName",
-			"value": "waitUntil"
+			"value": "nota_kahlan_ttdr.moveUnitTo"
 		} ],
-		"scriptName": "waitUntil"
+		"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+	}, {
+		"children": [],
+		"id": "BBEBbwPV1uiqxOpUbyS0q7MhErqJv8KN",
+		"nodeType": "repeat",
+		"parameters": []
 	} ],
 	"additionalParameters": {
 		"root": {
-			"height": 88,
-			"width": 180
+			"height": 108,
+			"width": 216
 		}
 	},
-	"inputs": [],
+	"inputs": [ {
+		"command": "Variable",
+		"name": "laneIndex"
+	} ],
 	"outputs": [],
 	"properties": {
 		"2DiruPfF69ZNdq7oRRmEPHRkNkJzg16y": {
 			"height": 112,
 			"title": "nota_ngoho_ctp2.UnloadUnitsFromTransporter",
 			"width": 404,
-			"x": 554,
-			"y": 1268
+			"x": 859,
+			"y": 1318
+		},
+		"2IxKYyUtGlXgDaFjg63W16zv4njUF00Q": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 377,
+			"x": 969,
+			"y": 314
 		},
 		"6dgLBGbbVkab1RY9bk3o3PzIKMvLavkz": {
 			"height": 92,
 			"title": "nota_kahlan_ttdr.loadUnit",
 			"width": 244,
-			"x": 830,
-			"y": 341
+			"x": 1129,
+			"y": 391
+		},
+		"6qGYhazpBWpbX15ZOT6c7bKQoRDNniQY": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 388,
+			"x": 1198,
+			"y": -77
 		},
 		"7XCISw9jjzgfZt1I8cbKaa2hY14bXdp3": {
 			"height": 92,
 			"title": "nota_kahlan_ttdr.loadUnit",
 			"width": 244,
-			"x": 498,
-			"y": -264
+			"x": 803,
+			"y": -214
 		},
 		"8C1SCD7HgWp9dvuowYBHUU4K5P6HiOt5": {
 			"height": 112,
 			"title": "nota_ngoho_ctp2.UnloadUnitsFromTransporter",
 			"width": 452,
-			"x": 507,
-			"y": 35
+			"x": 812,
+			"y": 85
 		},
-		"G6mhnod1DNNcwwDlsGFXk8FwYRqTLzHA": {
-			"height": 72,
-			"title": "waitUntil",
-			"width": 299,
-			"x": 458,
-			"y": 260
+		"BBEBbwPV1uiqxOpUbyS0q7MhErqJv8KN": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 482,
+			"y": 295
 		},
 		"I9nGOJnGXdPbQmJ5z8YD6PoV3CUUytlU": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 269,
-			"x": 592,
-			"y": 719
+			"x": 897,
+			"y": 769
 		},
 		"K0k3nIFViKWGkXhkBAkl4DeoWUBVyddO": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 508,
-			"y": -55
+			"x": 813,
+			"y": -5
 		},
 		"NTcmkm4U91x7Ih1dHJOP9PQnwNqERvE3": {
-			"height": 72,
+			"height": 90,
 			"title": "wait",
-			"width": 131,
-			"x": 586,
-			"y": 927
+			"width": 166,
+			"x": 1296,
+			"y": 1016
 		},
 		"PonqniEqGnLcyJ1BwXLpqDrNVF84Axr6": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 628,
-			"y": 520
+			"x": 932,
+			"y": 570
 		},
 		"SSaAysgPZ0IdLwVEd9enhDzCJP7i0eDu": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 340,
-			"x": 831,
-			"y": 1116
+			"x": 929,
+			"y": 1100
 		},
 		"XchJseS7a0cff20DhRGuKOcHxoYsMmTh": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 578,
-			"y": 1507
+			"x": 834,
+			"y": 1656
 		},
 		"dcgSyGe4N7g5QCoviEE7NLt9ngm6atzb": {
 			"height": 92,
 			"title": "nota_kahlan_ttdr.loadUnit",
 			"width": 244,
-			"x": 785,
-			"y": 996
+			"x": 947,
+			"y": 1004
 		},
-		"fEr8dSmEPKd5faqi6cEr1Vch5HtComB0": {
+		"eRamMhRgS76TYFwn9Gvr56NdKuL7JL7m": {
 			"height": 72,
-			"title": "wait",
-			"width": 131,
-			"x": 627,
-			"y": 309
+			"title": "waitUntil",
+			"width": 377,
+			"x": 839,
+			"y": 876
+		},
+		"fcYsW7y3MNZEtgN71rYDncmaZPCjIqZl": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 377,
+			"x": 776,
+			"y": 1566
 		},
 		"klNhGd1SUtOUSLzRakwy45IZyLCaNLNO": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 269,
-			"x": 513,
-			"y": 151
+			"x": 818,
+			"y": 201
 		},
 		"nN6O0mAsoUO6HzaPwznMfOXgPh5K0Orm": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 400,
-			"x": 872,
-			"y": 457
+			"x": 1168,
+			"y": 507
 		},
 		"ohgcAHo7yWEz9pUYuefsCxZqXK2ZWwfB": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 388,
-			"x": 489,
-			"y": -163
+			"x": 794,
+			"y": -113
 		},
 		"rkHsjGdyszD7BTmySRPn0LMI2R3Dmyb5": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 240,
-			"y": 11
+			"x": 550,
+			"y": -31
 		},
 		"u5Z4twwVwLcbFpwFSHTufCb7Xw5GmzTr": {
 			"height": 112,
 			"title": "nota_ngoho_ctp2.UnloadUnitsFromTransporter",
 			"width": 464,
-			"x": 595,
-			"y": 609
+			"x": 900,
+			"y": 659
 		},
 		"vP9V2S2zj5dEyMn7xaEDxg8F35E7i0nz": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 269,
-			"x": 551,
-			"y": 1378
+			"x": 856,
+			"y": 1428
 		},
 		"wbqm9IEgFESO2k419KGhNcdHDclU1kER": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
 			"width": 304,
-			"x": 1164,
-			"y": 549
+			"x": 1455,
+			"y": 599
 		},
 		"yNM3keA0WbMXgVoH1HUGuniJrYBLoXgG": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 588,
-			"y": 1179
+			"x": 893,
+			"y": 1229
 		}
 	},
 	"roles": [ {
@@ -213,7 +264,7 @@
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "position",
-				"value": "Vec3(4824.2,44.8,4096.5)"
+				"value": "Vec3(5509.9,43.5,6191)"
 			}, {
 				"name": "unit",
 				"value": "164"
@@ -242,7 +293,7 @@
 				"value": "164"
 			}, {
 				"name": "unloadingPosition",
-				"value": "Vec3(4824.2,44.8,4096.5)"
+				"value": "Vec3(6316, 45, 4863)"
 			}, {
 				"name": "unloadingRadius",
 				"value": "50"
@@ -271,12 +322,16 @@
 			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
 		}, {
 			"children": [],
-			"id": "fEr8dSmEPKd5faqi6cEr1Vch5HtComB0",
-			"nodeType": "wait",
+			"id": "2IxKYyUtGlXgDaFjg63W16zv4njUF00Q",
+			"nodeType": "luaCommand",
 			"parameters": [ {
-				"name": "time",
-				"value": 300
-			} ]
+				"name": "condition",
+				"value": "bb.lanes[laneIndex].info.frontPosIndex>10"
+			}, {
+				"name": "scriptName",
+				"value": "waitUntil"
+			} ],
+			"scriptName": "waitUntil"
 		}, {
 			"children": [],
 			"id": "6dgLBGbbVkab1RY9bk3o3PzIKMvLavkz",
@@ -298,7 +353,7 @@
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "position",
-				"value": "Vec3(5997.90,40.16,2998.127)"
+				"value": "Vec3(4889.5,45.5,3289.9)"
 			}, {
 				"name": "unit",
 				"value": "164"
@@ -327,7 +382,7 @@
 				"value": "164"
 			}, {
 				"name": "unloadingPosition",
-				"value": "Vec3(5997.90,40.16,2998.127)"
+				"value": "Vec3(6056,44,2968)"
 			}, {
 				"name": "unloadingRadius",
 				"value": "50"
@@ -342,7 +397,7 @@
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "position",
-				"value": "Vec3(4236, 46, 6390)"
+				"value": "Vec3(4889.5,45.5,3289.9)"
 			}, {
 				"name": "unit",
 				"value": "164"
@@ -356,12 +411,16 @@
 			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
 		}, {
 			"children": [],
-			"id": "NTcmkm4U91x7Ih1dHJOP9PQnwNqERvE3",
-			"nodeType": "wait",
+			"id": "eRamMhRgS76TYFwn9Gvr56NdKuL7JL7m",
+			"nodeType": "luaCommand",
 			"parameters": [ {
-				"name": "time",
-				"value": 270
-			} ]
+				"name": "condition",
+				"value": "bb.lanes[laneIndex].info.frontPosIndex>12"
+			}, {
+				"name": "scriptName",
+				"value": "waitUntil"
+			} ],
+			"scriptName": "waitUntil"
 		}, {
 			"children": [],
 			"id": "dcgSyGe4N7g5QCoviEE7NLt9ngm6atzb",
@@ -412,7 +471,7 @@
 				"value": "164"
 			}, {
 				"name": "unloadingPosition",
-				"value": "Vec3(7888.03, 34.20, 3141.089)"
+				"value": "Vec3(7888.8, 24.2, 3187.4)"
 			}, {
 				"name": "unloadingRadius",
 				"value": "50"
@@ -441,12 +500,16 @@
 			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
 		}, {
 			"children": [],
-			"id": "XchJseS7a0cff20DhRGuKOcHxoYsMmTh",
-			"nodeType": "wait",
+			"id": "fcYsW7y3MNZEtgN71rYDncmaZPCjIqZl",
+			"nodeType": "luaCommand",
 			"parameters": [ {
-				"name": "time",
-				"value": 350
-			} ]
+				"name": "condition",
+				"value": "bb.lanes[laneIndex].info.frontPosIndex<9"
+			}, {
+				"name": "scriptName",
+				"value": "waitUntil"
+			} ],
+			"scriptName": "waitUntil"
 		} ],
 		"id": "rkHsjGdyszD7BTmySRPn0LMI2R3Dmyb5",
 		"nodeType": "sequence",

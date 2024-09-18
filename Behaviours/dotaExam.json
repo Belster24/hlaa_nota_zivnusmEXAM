@@ -78,21 +78,21 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 647,
+			"x": 648,
 			"y": -59
 		},
 		"Al1pzMyKa8km4iZWaf6jxz5IIkhTGDx3": {
 			"height": 151,
 			"title": "reference",
 			"width": 354,
-			"x": 1398,
-			"y": 398
+			"x": 1051,
+			"y": 90
 		},
 		"Db1AkzJUKxDqPPkgEQaizlIC1kNY4jf9": {
 			"height": 110,
 			"title": "reference",
 			"width": 329,
-			"x": 1058,
+			"x": 1057,
 			"y": -126
 		},
 		"KYkIdep9OB7GV2Lhr5p673YsCYYtOGOv": {
@@ -106,14 +106,14 @@
 			"height": 92,
 			"title": "store",
 			"width": 131,
-			"x": 714,
+			"x": 715,
 			"y": -434
 		},
 		"LvNoDj6tWWXw9shgjDrGrPyq6zgDnnIU": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1144,
+			"x": 1143,
 			"y": 486
 		},
 		"RRwMeGON6SnYrbqishxh5gcKtsOVbGt6": {
@@ -127,7 +127,7 @@
 			"height": 94,
 			"title": "store",
 			"width": 198,
-			"x": 708,
+			"x": 709,
 			"y": -568
 		},
 		"T4B8JUgV7oluw9xEt6Hl094IFlGsp36g": {
@@ -141,7 +141,7 @@
 			"height": 151,
 			"title": "reference",
 			"width": 311,
-			"x": 1149,
+			"x": 1148,
 			"y": 976
 		},
 		"aMIw203VYr1a4TrpfcHmDtc2y3xnSZbo": {
@@ -155,29 +155,29 @@
 			"height": 151,
 			"title": "reference",
 			"width": 354,
-			"x": 1100,
-			"y": 108
+			"x": 1403,
+			"y": 54
 		},
 		"h8MUpjUdiR3zSbsSZXuTrIWb4ZDDHulN": {
 			"height": 151,
 			"title": "reference",
 			"width": 354,
-			"x": 1144,
+			"x": 1143,
 			"y": 577
 		},
 		"irSfKKNy2jNzITNkFn7KsOPgO8iRrNSA": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1352,
+			"x": 1351,
 			"y": 252
 		},
 		"ldcgVaQFXdnG5lAiIAKLfJud0kQlx1x7": {
-			"height": 110,
+			"height": 130,
 			"title": "reference",
 			"width": 367,
-			"x": 1064,
-			"y": -5
+			"x": 1095,
+			"y": 341
 		},
 		"qcOcDTxBiFouwB5bySQ6bwJ7i5moTpWn": {
 			"height": 60,
@@ -190,14 +190,14 @@
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1181,
+			"x": 1180,
 			"y": 837
 		},
 		"xbjVQ2wPq7WbDvo0pTRPxjnjQkK7NIB9": {
 			"height": 94,
 			"title": "store",
 			"width": 385,
-			"x": 702,
+			"x": 703,
 			"y": -320
 		}
 	},
@@ -270,16 +270,6 @@
 					"referenceOutputs": []
 				}, {
 					"children": [],
-					"id": "ldcgVaQFXdnG5lAiIAKLfJud0kQlx1x7",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "hlaa_nota_zivnusmEXAM.TransportDeathBox"
-					} ],
-					"referenceInputs": [],
-					"referenceOutputs": []
-				}, {
-					"children": [],
 					"id": "Al1pzMyKa8km4iZWaf6jxz5IIkhTGDx3",
 					"nodeType": "reference",
 					"parameters": [ {
@@ -291,6 +281,19 @@
 						"value": "bb.missioninfo.corridors.Middle"
 					}, {
 						"name": "lid",
+						"value": "1"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "ldcgVaQFXdnG5lAiIAKLfJud0kQlx1x7",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "hlaa_nota_zivnusmEXAM.TransportDeathBox"
+					} ],
+					"referenceInputs": [ {
+						"name": "laneIndex",
 						"value": "1"
 					} ],
 					"referenceOutputs": []

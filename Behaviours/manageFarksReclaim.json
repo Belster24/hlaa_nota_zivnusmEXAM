@@ -164,16 +164,16 @@
 						"value": "2"
 					}, {
 						"name": "dangerRadius",
-						"value": "500"
+						"value": "1200"
 					}, {
 						"name": "dangerDpsTreshold",
-						"value": "3"
+						"value": "1"
 					}, {
 						"name": "minAmount",
 						"value": "1"
 					}, {
 						"name": "groupRatioSafe",
-						"value": "1"
+						"value": "0.1"
 					} ],
 					"referenceOutputs": [ {
 						"name": "ready",

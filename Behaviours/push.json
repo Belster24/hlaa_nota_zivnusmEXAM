@@ -50,55 +50,6 @@
 		"referenceOutputs": []
 	}, {
 		"children": [],
-		"id": "aimTvugGWVrC1mWdqIKHOqAiBvdL3jVT",
-		"nodeType": "reference",
-		"parameters": [ {
-			"name": "behaviourName",
-			"value": "hlaa_nota_zivnusmEXAM.manageUnitFightAtFront"
-		} ],
-		"referenceInputs": [ {
-			"name": "laneInfo",
-			"value": "lane"
-		}, {
-			"name": "unitName",
-			"value": "\"armmav\""
-		}, {
-			"name": "unitCategory",
-			"value": "\"armmav\""
-		}, {
-			"name": "buyUpToAmount",
-			"value": "0"
-		}, {
-			"name": "severenity",
-			"value": "2"
-		}, {
-			"name": "relativePositionToFront",
-			"value": "-0.2"
-		}, {
-			"name": "moveSpread",
-			"value": "128"
-		}, {
-			"name": "dangerRadius",
-			"value": "500"
-		}, {
-			"name": "dangerDpsTreshold",
-			"value": "3"
-		}, {
-			"name": "minAmount",
-			"value": "5"
-		}, {
-			"name": "groupRatioSafe",
-			"value": "1"
-		}, {
-			"name": "beforeFocusedFireThreshold",
-			"value": "1000"
-		}, {
-			"name": "highestDPSSeekRadius",
-			"value": "1200"
-		} ],
-		"referenceOutputs": []
-	}, {
-		"children": [],
 		"id": "mFaEbj9ZYtmGJ5o7nL2Ccm3pDOm5k1WV",
 		"nodeType": "reference",
 		"parameters": [ {
@@ -146,6 +97,55 @@
 			"value": "1000"
 		} ],
 		"referenceOutputs": []
+	}, {
+		"children": [],
+		"id": "aimTvugGWVrC1mWdqIKHOqAiBvdL3jVT",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "hlaa_nota_zivnusmEXAM.manageUnitFightAtFront"
+		} ],
+		"referenceInputs": [ {
+			"name": "laneInfo",
+			"value": "lane"
+		}, {
+			"name": "unitName",
+			"value": "\"armmav\""
+		}, {
+			"name": "unitCategory",
+			"value": "\"armmav\""
+		}, {
+			"name": "buyUpToAmount",
+			"value": "0"
+		}, {
+			"name": "severenity",
+			"value": "2"
+		}, {
+			"name": "relativePositionToFront",
+			"value": "-0.2"
+		}, {
+			"name": "moveSpread",
+			"value": "128"
+		}, {
+			"name": "dangerRadius",
+			"value": "500"
+		}, {
+			"name": "dangerDpsTreshold",
+			"value": "3"
+		}, {
+			"name": "minAmount",
+			"value": "5"
+		}, {
+			"name": "groupRatioSafe",
+			"value": "1"
+		}, {
+			"name": "beforeFocusedFireThreshold",
+			"value": "1000"
+		}, {
+			"name": "highestDPSSeekRadius",
+			"value": "1200"
+		} ],
+		"referenceOutputs": []
 	} ],
 	"additionalParameters": {
 		"root": {
@@ -173,77 +173,77 @@
 			"height": 151,
 			"title": "keepLaneInfoUpdated",
 			"width": 381,
-			"x": 962,
+			"x": 963,
 			"y": -57
 		},
 		"4a72KlHIm1EkYbWC4RJZaJtYt3u3OiTx": {
 			"height": 361,
 			"title": "manageSpiesForLane",
 			"width": 450,
-			"x": 981,
+			"x": 982,
 			"y": 1360
 		},
 		"5SJ3XnbJ46voRbe6NYPkvTmnDSasJXcO": {
 			"height": 403,
 			"title": "manageArtileryForLane",
 			"width": 441,
-			"x": 975,
+			"x": 976,
 			"y": 958
 		},
 		"GABuXVhHFS6CEXJ4vKTJeVdME9FC9ZNe": {
 			"height": 60,
 			"title": "updateLane",
 			"width": 157,
-			"x": 471,
+			"x": 472,
 			"y": 24
 		},
 		"HLPNgUV9waTzOe8Q5G13bs6Sm629tIgH": {
 			"height": 382,
 			"title": "reference",
 			"width": 399,
-			"x": 1412,
+			"x": 1413,
 			"y": 325
 		},
 		"JhLJB41XmWhuqEQVkRL37ST406vkQCZm": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 248,
+			"x": 249,
 			"y": 24
 		},
 		"aimTvugGWVrC1mWdqIKHOqAiBvdL3jVT": {
 			"height": 382,
 			"title": "reference",
 			"width": 399,
-			"x": 1452,
+			"x": 1453,
 			"y": 770
 		},
 		"i7VgxseyqHsgIQ5xBUSI6p26I1Hw46eE": {
 			"height": 173,
 			"title": "initLaneData",
 			"width": 313,
-			"x": 478,
+			"x": 479,
 			"y": -222
 		},
 		"ilJ22UpIp6gGg753rkpFsvvrdHsUKeHf": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 650,
+			"x": 651,
 			"y": 20
 		},
 		"jCA0kGPBsxfZE9ib5CPGDXTFgY4ACtje": {
 			"height": 214,
 			"title": "buyArmyInRatio",
 			"width": 1354,
-			"x": 963,
+			"x": 964,
 			"y": 108
 		},
 		"mFaEbj9ZYtmGJ5o7nL2Ccm3pDOm5k1WV": {
 			"height": 403,
 			"title": "manageArtileryForLane",
 			"width": 441,
-			"x": 978,
+			"x": 979,
 			"y": 557
 		}
 	},
@@ -324,13 +324,13 @@
 						"value": "\"armmartt\""
 					}, {
 						"name": "buyUpToAmount",
-						"value": "3"
+						"value": "2"
 					}, {
 						"name": "severenity",
 						"value": "2"
 					}, {
 						"name": "relativePositionToFront",
-						"value": "-0.3"
+						"value": "-0.5"
 					}, {
 						"name": "moveSpread",
 						"value": "128"
@@ -382,16 +382,16 @@
 						"value": "-0.1"
 					}, {
 						"name": "moveSpread",
-						"value": "128"
+						"value": "240"
 					}, {
 						"name": "dangerRadius",
 						"value": "400"
 					}, {
 						"name": "dangerDpsTreshold",
-						"value": "15"
+						"value": "150"
 					}, {
 						"name": "minAmount",
-						"value": "6"
+						"value": "8"
 					}, {
 						"name": "groupRatioSafe",
 						"value": "1"

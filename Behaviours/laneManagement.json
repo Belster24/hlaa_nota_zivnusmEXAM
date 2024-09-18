@@ -199,7 +199,7 @@
 						"value": "2"
 					}, {
 						"name": "relativePositionToFront",
-						"value": "-0.3"
+						"value": "-0.5"
 					}, {
 						"name": "moveSpread",
 						"value": "128"
@@ -248,7 +248,7 @@
 						"value": "2"
 					}, {
 						"name": "relativePositionToFront",
-						"value": "-0.2"
+						"value": "-0.3"
 					}, {
 						"name": "moveSpread",
 						"value": "128"
@@ -257,13 +257,13 @@
 						"value": "700"
 					}, {
 						"name": "dangerDpsTreshold",
-						"value": "2"
+						"value": "3"
 					}, {
 						"name": "minAmount",
 						"value": "1"
 					}, {
 						"name": "groupRatioSafe",
-						"value": "0.2"
+						"value": "0.3"
 					}, {
 						"name": "beforeFocusedFireThreshold",
 						"value": "400"

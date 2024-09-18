@@ -93,7 +93,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 847,
+			"x": 848,
 			"y": -329
 		},
 		"5EOjwqJkK1lsaGjZm85bl0Mi78jGLzBT": {
@@ -114,14 +114,14 @@
 			"height": 74,
 			"title": "wait",
 			"width": 202,
-			"x": 1148,
+			"x": 1149,
 			"y": -197
 		},
 		"DEkuVIVDORFCzXDRVwApRxkkhADYJMpB": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 627,
+			"x": 629,
 			"y": -368
 		},
 		"FSY4tUSae9HtpPzWWqqIAr8OfP8tVZBs": {
@@ -135,28 +135,28 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 653,
-			"y": 155
+			"x": 797,
+			"y": 194
 		},
 		"Q5bmb1Z0UHaJaNKW6rgKjmkl22Am1DB1": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1167,
+			"x": 1168,
 			"y": -109
 		},
 		"QnjozhyGuJHjt1IGY4BRY5HyRHluIyf1": {
 			"height": 72,
 			"title": "echo",
 			"width": 134,
-			"x": 1631,
-			"y": -180
+			"x": 1474,
+			"y": -218
 		},
 		"R2mKVwDjrk89EnwnnZ69HU2TKbHNNJcV": {
 			"height": 341,
 			"title": "reference",
 			"width": 403,
-			"x": 1155,
+			"x": 1156,
 			"y": -544
 		},
 		"Zqc7wpafCNzn8h8tSGZPD52MGsFUIQKV": {
@@ -198,28 +198,28 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 479,
-			"y": 91
+			"x": 405,
+			"y": 141
 		},
 		"mM01LpXWk15NmIGGzPTdkj9BOm0jYPvU": {
 			"height": 60,
 			"title": "fightSequence",
 			"width": 172,
-			"x": 1187,
+			"x": 1188,
 			"y": 76
 		},
 		"myU6QRX87uheSmmoef3t4XcoM0Cb7mfX": {
 			"height": 91,
 			"title": "moveToGoalOrRetreat",
 			"width": 227,
-			"x": 811,
+			"x": 812,
 			"y": 82
 		},
 		"n9PUtqPU6VjwzI4eBBJhFhHqMewGvibZ": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1184,
+			"x": 1185,
 			"y": 410
 		},
 		"nmAfURhd9JGGyBgFiHUCcsS8Kcih7N4f": {
@@ -261,7 +261,7 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 350,
+			"x": 352,
 			"y": 64
 		},
 		"y9dNh7uM2tixI8zOYSmSfjp2CvgeSSKU": {
@@ -275,8 +275,8 @@
 			"height": 152,
 			"title": "moveUnitsToGoalPos",
 			"width": 325,
-			"x": 1671,
-			"y": -110
+			"x": 1802,
+			"y": -117
 		}
 	},
 	"roles": [ {
